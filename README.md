@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 <p align="center">
-  <img src="./mockfast-logo.png" alt="MockFast Logo" width="200"/>
+  <img src="./mockfast-og.png" alt="MockFast Logo" width="200"/>
 </p>
 
 ## 🚀 What is MockFast?
