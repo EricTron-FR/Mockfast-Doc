@@ -19,12 +19,7 @@ MockFast is a "Mock as a Service" platform that lets developers create and deplo
 
 ## 📚 Documentation
 
-This repository contains the official documentation for MockFast.io. Use the links below to navigate to relevant sections:
-
-- [Quick Start Guide](./docs/quick-start.md)
-- [Using MockFast](./docs/using-mockfast.md)
-- [Data Types Reference](./docs/data-types.md)
-- [Complex Templates](./docs/complex-templates.md)
+This repository contains the official documentation for MockFast.io. 
 
 ## 🔍 Quick Start
 
@@ -144,9 +139,9 @@ For data like:
 ```json
 [
   {
-    "name": "Alice",
-    "age": 30,
-    "email": "alice@example.com"
+    "name": "Bob",
+    "age": 25,
+    "email": "bob@example.com"
   },
   {
     "name": "Charlie",
@@ -154,10 +149,11 @@ For data like:
     "email": "charlie@example.com"
   },
   {
-    "name": "Bob",
-    "age": 25,
-    "email": "bob@example.com"
+    "name": "Alice",
+    "age": 30,
+    "email": "alice@example.com"
   }
+
 ]
 ```
 
