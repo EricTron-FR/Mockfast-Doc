@@ -27,9 +27,9 @@ This repository contains the official documentation for MockFast.io.
 
 ```json
 {
-  "name": "string",
+  "name": "string.name.firstname",
   "age": "number",
-  "email": "email"
+  "email": "string.mail.gmail"
 }
 ```
 
@@ -45,6 +45,16 @@ https://mockfast.io/api/YOUR_ID
 fetch('https://mockfast.io/api/YOUR_ID')
   .then(response => response.json())
   .then(data => console.log(data));
+```
+
+### 4. Get your data
+
+```json
+ {
+    "name": "Sophie",
+    "age": "545",
+    "email": "user_160@gmail.com",
+}
 ```
 
 ## 📋 Available Data Types
