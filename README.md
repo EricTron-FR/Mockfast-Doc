@@ -126,6 +126,46 @@ Create realistic API responses with nested objects and arrays:
 }
 ```
 
+## 🔄 Sorting Data
+
+Sort your API responses easily with query parameters:
+
+| Feature | Query Parameter | Example | Description |
+|---------|----------------|---------|-------------|
+| Basic Sorting | `?sort=fieldname` | `?sort=age` | Sort by a single field (ascending by default) |
+| Explicit Direction | `?sort=fieldname:direction` | `?sort=age:desc` | Sort by a field with explicit direction (`asc` or `desc`) |
+| Multi-Field Sorting | `?sort=field1&sort=field2` | `?sort=age&sort=name` | Sort by multiple fields (applied in order) |
+| Mixed Direction | `?sort=field1:asc&sort=field2:desc` | `?sort=age:asc&sort=name:desc` | Sort by different fields with different directions |
+| Default Direction | `?sort=field&order=direction` | `?sort=age&order=desc` | Set a default direction for fields without explicit direction |
+
+### Example
+
+For data like:
+```json
+[
+  {
+    "name": "Alice",
+    "age": 30,
+    "email": "alice@example.com"
+  },
+  {
+    "name": "Charlie",
+    "age": 30,
+    "email": "charlie@example.com"
+  },
+  {
+    "name": "Bob",
+    "age": 25,
+    "email": "bob@example.com"
+  }
+]
+```
+
+Using `?sort=age:asc&sort=name:desc` would return:
+1. Bob (age 25) - lowest age first
+2. Charlie (age 30) - then by name in descending order for same ages
+3. Alice (age 30) - then by name in descending order for same ages
+
 ## 💼 Plans and Features
 
 ### Free Plan
@@ -147,7 +187,7 @@ We welcome contributions to improve MockFast documentation! Please see our [Cont
 
 Need help? Reach out to us:
 
-- [Documentation Issues](https://github.com/username/mockfast-docs/issues)
+- [Discord](https://discord.gg/JCFJ9MBcTr)
 - [Visit MockFast.io](https://mockfast.io)
 - [Buy Me a Coffee](https://ko-fi.com/mockfast)
 
