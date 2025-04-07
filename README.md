@@ -185,10 +185,6 @@ Using `?sort=age:asc&sort=name:desc` would return:
 - Custom delays and HTTP codes
 - Usage tracking
 
-## 🤝 Contributing
-
-We welcome contributions to improve MockFast documentation! Please see our [Contributing Guide](./CONTRIBUTING.md) for more information.
-
 ## 📞 Support
 
 Need help? Reach out to us:
